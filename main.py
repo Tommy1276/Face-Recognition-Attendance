@@ -2,7 +2,7 @@
 # If you get error then Mail : vatshayan007@gmail.com
 import cv2
 import numpy as np
-import face_recognitions
+import face_recognition
 
 imgModi = face_recognition.load_image_file('Images_Attendance/modi-image-for-InUth.jpg')
 imgModi = cv2.cvtColor(imgModi, cv2.COLOR_BGR2RGB)
